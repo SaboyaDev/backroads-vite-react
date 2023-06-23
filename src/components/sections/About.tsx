@@ -1,4 +1,5 @@
 import Title from '../util/Titile'
+import AboutImg from '/src/assets/images/about.jpeg'
 
 const About = () => {
 	return (
@@ -7,11 +8,7 @@ const About = () => {
 
 			<div className='section-center about-center'>
 				<div className='about-img'>
-					<img
-						src='/src/assets/images/about.jpeg'
-						className='about-photo'
-						alt='awesome beach'
-					/>
+					<img src={AboutImg} className='about-photo' alt='awesome beach' />
 				</div>
 				<article className='about-info'>
 					<h3>explore the difference</h3>
